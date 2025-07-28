@@ -1,70 +1,69 @@
 {
   "metadata": {
     "input_documents": [
-      "file01.pdf",
-      "file03.pdf"
+      "sample.pdf"
     ],
-    "persona": "Government Administrative Officer",
-    "job_to_be_done": "Extract all actionable fields, eligibility rules, refund/advance conditions from the LTC form, and summarize key milestones, funding model, and governance structure from the Ontario Digital Library proposal.",
-    "processing_timestamp": "2025-07-26T23:40:17.075107"
+    "persona": "Academic Research Analyst",
+    "job_to_be_done": "Extract definitions, research questions, benefits and drawbacks of the simple random sampling method, and summarize author insights and conclusions.",
+    "processing_timestamp": "2025-07-28T16:56:22.154304"
   },
   "extracted_sections": [
     {
-      "document": "file03.pdf",
-      "section_title": "Ontario’s Digital Library",
+      "document": "sample.pdf",
+      "section_title": "Defining Simple Random Sampling in a Scientific Research",
       "importance_rank": 1,
+      "page_number": 3
+    },
+    {
+      "document": "sample.pdf",
+      "section_title": "Benefits and Drawbacks of Simple Random Sampling",
+      "importance_rank": 2,
+      "page_number": 4
+    },
+    {
+      "document": "sample.pdf",
+      "section_title": "Framing Simple Random Sampling",
+      "importance_rank": 3,
+      "page_number": 3
+    },
+    {
+      "document": "sample.pdf",
+      "section_title": "Simple Random Sampling",
+      "importance_rank": 4,
       "page_number": 2
     },
     {
-      "document": "file01.pdf",
-      "section_title": "Application form for grant of LTC advance",
-      "importance_rank": 2,
-      "page_number": 1
-    },
-    {
-      "document": "file01.pdf",
-      "section_title": "Persons in respect of whom LTC is proposed to be availed.",
-      "importance_rank": 3,
-      "page_number": 1
-    },
-    {
-      "document": "file01.pdf",
-      "section_title": "Signature of Government Servant.",
-      "importance_rank": 4,
-      "page_number": 1
-    },
-    {
-      "document": "file01.pdf",
-      "section_title": "so whether entitled to LTC",
+      "document": "sample.pdf",
+      "section_title": "About the Authors",
       "importance_rank": 5,
-      "page_number": 1
+      "page_number": 5
     }
   ],
   "subsection_analysis": [
     {
-      "document": "file03.pdf",
-      "refined_text": "Ontario’s Digital Library",
+      "document": "sample.pdf",
+      "refined_text": "Defining Simple Random Sampling in a Scientific Research",
+      "page_number": 3
+    },
+    {
+      "document": "sample.pdf",
+      "refined_text": "Benefits and Drawbacks of Simple Random Sampling",
+      "page_number": 4
+    },
+    {
+      "document": "sample.pdf",
+      "refined_text": "Framing Simple Random Sampling",
+      "page_number": 3
+    },
+    {
+      "document": "sample.pdf",
+      "refined_text": "Simple Random Sampling",
       "page_number": 2
     },
     {
-      "document": "file01.pdf",
-      "refined_text": "Application form for grant of LTC advance",
-      "page_number": 1
-    },
-    {
-      "document": "file01.pdf",
-      "refined_text": "Persons in respect of whom LTC is proposed to be availed.",
-      "page_number": 1
-    },
-    {
-      "document": "file01.pdf",
-      "refined_text": "Signature of Government Servant.",
-      "page_number": 1
-    },
-    {
-      "document": "file01.pdf",
-      "refined_text": "so whether entitled to LTC",
-      "page_number": 1
+      "document": "sample.pdf",
+      "refined_text": "About the Authors",
+      "page_number": 5
     }
   ]
 }
