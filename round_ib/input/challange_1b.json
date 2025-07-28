@@ -1,23 +1,19 @@
 {
   "challenge_info": {
-    "challenge_id": "round_1b_local_gov_001",
-    "test_case_name": "gov_ops",
-    "description": "LTC process + Digital Library policy analysis"
+    "challenge_id": "round_1b_sampling_001",
+    "test_case_name": "simple_random_sampling",
+    "description": "Analyze a research paper on simple random sampling to extract key concepts and arguments."
   },
   "documents": [
     {
-      "filename": "file01.pdf",
-      "title": "Application form for grant of LTC advance"
-    },
-    {
-      "filename": "file03.pdf",
-      "title": "To Present a Proposal for Developing the Business Plan for the Ontario Digital Library"
+      "filename": "sample.pdf",
+      "title": "Simple Random Sampling"
     }
   ],
   "persona": {
-    "role": "Government Administrative Officer"
+    "role": "Academic Research Analyst"
   },
   "job_to_be_done": {
-    "task": "Extract all actionable fields, eligibility rules, refund/advance conditions from the LTC form, and summarize key milestones, funding model, and governance structure from the Ontario Digital Library proposal."
+    "task": "Extract definitions, research questions, benefits and drawbacks of the simple random sampling method, and summarize author insights and conclusions."
   }
 }
