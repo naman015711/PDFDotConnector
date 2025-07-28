@@ -1,0 +1,23 @@
+{
+  "challenge_info": {
+    "challenge_id": "round_1b_local_gov_001",
+    "test_case_name": "gov_ops",
+    "description": "LTC process + Digital Library policy analysis"
+  },
+  "documents": [
+    {
+      "filename": "file01.pdf",
+      "title": "Application form for grant of LTC advance"
+    },
+    {
+      "filename": "file03.pdf",
+      "title": "To Present a Proposal for Developing the Business Plan for the Ontario Digital Library"
+    }
+  ],
+  "persona": {
+    "role": "Government Administrative Officer"
+  },
+  "job_to_be_done": {
+    "task": "Extract all actionable fields, eligibility rules, refund/advance conditions from the LTC form, and summarize key milestones, funding model, and governance structure from the Ontario Digital Library proposal."
+  }
+}
