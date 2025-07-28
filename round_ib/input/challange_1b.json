@@ -1,19 +1,31 @@
 {
   "challenge_info": {
-    "challenge_id": "round_1b_sampling_001",
-    "test_case_name": "simple_random_sampling",
-    "description": "Analyze a research paper on simple random sampling to extract key concepts and arguments."
+    "challenge_id": "round_1b_combined_001",
+    "test_case_name": "gov_and_research_analysis",
+    "description": "Analyze policy forms and research documents to extract actionable and insightful content."
   },
   "documents": [
     {
+      "filename": "file01.pdf",
+      "title": "Application form for grant of LTC advance"
+    },
+    {
+      "filename": "file02.pdf",
+      "title": "Proposal for Ontario Digital Library"
+    },
+    {
+      "filename": "file03.pdf",
+      "title": "Business Plan for Ontario Digital Library"
+    },
+    {
       "filename": "sample.pdf",
-      "title": "Simple Random Sampling"
+      "title": "Simple Random Sampling Research Paper"
     }
   ],
   "persona": {
-    "role": "Academic Research Analyst"
+    "role": "Public Policy and Research Analyst"
   },
   "job_to_be_done": {
-    "task": "Extract definitions, research questions, benefits and drawbacks of the simple random sampling method, and summarize author insights and conclusions."
+    "task": "From policy forms and proposals, extract key actionable fields, funding/governance insights, and eligibility rules. From research documents, extract definitions, benefits/drawbacks, and summarize key conclusions and author insights."
   }
 }
