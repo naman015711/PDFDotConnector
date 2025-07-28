@@ -1,8 +1,3 @@
-# Team Member 
-1. L-Saurav kumar
-2. Naman Tomar
-3. Rishabh Kumar
-
 # Adobe Hackathon Project - Round 1 (1A & 1B)
 
 This repository includes solutions to **Adobe India Hackathon Round 1**, consisting of two parts:
@@ -31,7 +26,8 @@ This repository includes solutions to **Adobe India Hackathon Round 1**, consist
 ```
 
 ---
-
+## Important Info
+we have limit the output for 1B( till top 5)
 ## Requirements
 
 Ensure you have the following installed:
